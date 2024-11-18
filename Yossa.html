@@ -70,14 +70,24 @@
             background-color: #a6a6a6;
         }
     </style>
+    <script>
+        function goToHomePage() {
+            window.location.href = 'index.html';
+        }
+
+        function menu3Clicked() {
+            console.log("Menu 3 cliqué");
+            alert("Menu 3 cliqué");
+        }
+    </script>
 </head>
 <body>
     <div class="header">
         <h1>GROUPE N° 06</h1>
-        <p>Nom du Membre : YOSSA ITEBE ELISHA SARAINA</p>
+        <p>Nom du Membre YOSSA ITEBE ELISHA SARAINA</p>
     </div>
-   <div class="container">
-        <button class="menu-button" onclick="menu1Clicked()">Menu 1</button>
+    <div class="container">
+        <button class="menu-button" onclick="menu3Clicked()">Menu 3</button>
         <button class="main-button" onclick="goToHomePage()">Retour page principale</button>
     </div>
 </body>
