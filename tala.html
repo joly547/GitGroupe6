@@ -3,31 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page de TALA MIGUEL - Groupe 6</title>
     <link rel="stylesheet" href="style.css">
-    <title>TALA MIGUEL</title>
     <style>
-        .button {
-            display: inline-block;
-            padding: 10px 20px;
-            font-size: 16px;
+        /* Couleur de l'en-tête */
+        header {
+            background-color: #4CAF50;
             color: white;
-            background-color: green; /* Couleur verte */
-            text-decoration: none;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        /* Contenu principal */
+        main {
+            font-family: Arial, sans-serif;
+            color: #333;
+            background-color: #f9f9f9;
+            padding: 20px;
             text-align: center;
         }
 
-        .button:hover {
-            background-color: darkgreen; /* Couleur lors du survol */
+        /* Style du bouton */
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        /* Lien de retour */
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Pied de page */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
         }
     </style>
 </head>
 <body>
+    <!-- En-tête avec le numéro de groupe et le nom -->
     <header>
-        <h1>Groupe 6 - TALA MIGUEL</h1>
+        <h1>GROUPE 6 - TALA MIGUEL</h1>
     </header>
-    <a href="index.html" class="button">Retour à l'Accueil</a>
+
+    <!-- Contenu principal -->
+    <main>
+        <p>Bienvenue sur la page de TALA MIGUEL, membre du Groupe 6.</p>
+        <!-- Lien de retour vers la page d'accueil -->
+        <a href="index.html">Retour à la page principale</a>
+
+        <!-- Bouton Menu 1 -->
+        <div style="margin-top: 20px;">
+            <button onclick="alert('Menu 1 cliqué !')">Menu 1</button>
+        </div>
+    </main>
+
+    <!-- Pied de page avec copyright -->
+    <footer>
+        <p>Copyright tous droits réservés Groupe 6</p>
+    </footer>
 </body>
 </html>
