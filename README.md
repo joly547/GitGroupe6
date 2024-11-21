@@ -28,4 +28,4 @@ L'objectif de ce projet était de créer un site simple, collaboratif, où chaqu
 Clonez ce repository sur votre machine pour accéder aux pages HTML locales :
 
 ```bash
-git clone https://github.com/votre_utilisateur/votre_devoir.git
+https://github.com/elishaitebe2022/GitGroupe6.git
